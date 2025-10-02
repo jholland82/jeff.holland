@@ -6,3 +6,7 @@ draft: true
 
 * This is a test
 I am testing how this works.
+
+{{< callout type="note" title="Note" >}}
+Useful information that users should know, even when skimming content.
+{{< /callout >}}

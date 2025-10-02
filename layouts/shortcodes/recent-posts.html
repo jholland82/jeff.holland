@@ -1,0 +1,43 @@
+{{/* Params (all optional)
+     count   : number of posts to show (default 5)
+     section : content section to pull from (default "posts")
+     sm/md/lg: responsive column counts (defaults 1/2/3)
+     class   : extra classes for the grid wrapper
+     tag     : filter by a single tag (optional)
+*/}}
+
+{{ $count   := .Get "count"   | default 5 }}
+{{ $section := .Get "section" | default "posts" }}
+{{ $sm      := .Get "sm"      | default 1 }}
+{{ $md      := .Get "md"      | default 2 }}
+{{ $lg      := .Get "lg"      | default 3 }}
+{{ $class   := .Get "class"   | default "" }}
+{{ $tag     := .Get "tag" }}
+
+{{/* Build the page set */}}
+{{ $pages := where .Site.RegularPages "Section" $section }}
+{{ if $tag }}
+  {{ $pages = where $pages "Params.tags" "intersect" (slice $tag) }}
+{{ end }}
+
+<section class="mx-auto max-w-screen-xl px-4">
+  <h3 class="text-2xl font-semibold mb-1" style="text-decoration: underline; text-decoration-color: #d1d5db;">Latest {{ title $section }}</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-{{ $sm }} md:grid-cols-{{ $md }} lg:grid-cols-{{ $lg }} gap-6 {{ $class }}">
+    {{ range first $count $pages }}
+<a href="{{ .RelPermalink }}" class="block rounded-2xl p-4 hover:shadow-sm transition-shadow" style="text-decoration: none;">
+  {{ with .Params.featured }}
+    <img src="{{ . | relURL }}" alt="" class="mb-3 rounded-xl object-cover w-full h-40" loading="lazy">
+  {{ end }}
+
+  <!-- Date prefix, then title -->
+  <h4 style="font-size: 1.25rem; font-weight: 600; margin-top: 0;">
+    <span style="font-size: 0.9rem; opacity: 0.7; font-weight: normal;">{{ .Date.Format "2006-01-02" }}</span>
+    <span style="font-size: 0.9rem; opacity: 0.5; font-weight: normal; margin: 0 0.25rem;">·</span>
+    {{ .Title }}
+  </h4>
+</a>
+
+    {{ end }}
+  </div>
+</section>
