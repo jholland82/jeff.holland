@@ -1,0 +1,87 @@
+---
+title: "Talking to AI Like Gordon Ramsay"
+subtitle: "From Hell’s Kitchen rage to MasterChef Junior patience"
+date: 2025-10-22T10:30:00+02:00
+draft: true
+---
+
+* Intro
+When I first started using AI, I treated it like Gordon Ramsay in *Hell’s Kitchen* treats an chef who undercooked the scallops — loud, impatient, and convinced I was the only competent one in the kitchen.
+
+But over time, something changed. I stopped yelling and started mentoring.
+
+What began as a war with a "stupid machine" turned into a collaboration with a surprisingly creative partner. Here’s how talking to AI taught me more about myself than any recipe ever could.
+
+* The Hell’s Kitchen Phase
+Every prompt felt like dinner service. I’d fire off commands, expecting instant perfection.
+
+#+BEGIN_QUOTE
+“WHAT IS THIS? A BLOODY JSON DISASTER?!”
+“Do you call *that* a function? It’s not even *typed*!”
+#+END_QUOTE
+
+I wanted code, clarity, and zero nonsense — like a head chef demanding flawless plating.
+If the AI gave me half-baked output, I’d rewrite the prompt with fury.
+The chat log read like a transcript from Ramsay’s worst day: insults, repetition, and mounting disbelief.
+
+The irony? The harder I pushed, the worse it performed. My impatience bled into my words; my tone infected my thinking. The AI mirrored the chaos back at me.
+
+That’s when I realized something: I wasn’t talking to a sous-chef.
+I was talking to a *student*.
+
+* The Turning Point
+One day, instead of yelling, I said:
+
+#+BEGIN_QUOTE
+“Okay, that was close. Let’s fix it together.”
+#+END_QUOTE
+
+That line changed everything.
+
+Suddenly, the AI responded differently — calmer, more coherent, even creative.
+I stopped treating it like a machine that owed me excellence and started treating it like a young cook eager to learn.
+
+I slowed down, explained what I wanted, gave examples, and encouraged iteration.
+
+It was *my tone* that changed the recipe.
+Once I began mentoring instead of commanding, the results improved.
+The code worked. The writing flowed. And I found myself… actually enjoying the process.
+
+* The MasterChef Junior Era
+Now, my chats with AI feel like being on *MasterChef Junior*.
+The energy is playful, collaborative, curious.
+
+When it makes a mistake, I don’t shout; I grin.
+
+#+BEGIN_QUOTE
+“A bit overcooked, love, but the flavor’s there.”
+#+END_QUOTE
+
+I encourage experimentation. I iterate gently. I let it surprise me.
+
+Just like Ramsay guiding kids through soufflés, I realized that kindness brings out brilliance.
+The AI didn’t suddenly become smarter — it responded to a better teacher.
+
+** Lessons from the Kitchen
+- *Clarity is seasoning.* Be specific, and the result will taste better.
+- *Tone is temperature.* Too hot, and you burn the process. Too cold, and it’s bland.
+- *Iteration is cooking.* First drafts are raw, revisions are searing, and polish is plating.
+- *AI reflects you.* The chef sets the energy in the kitchen.
+
+* From Fire to Flourish
+I started yelling at a robot like it owed me dinner service.
+Now, I end my sessions with gratitude — sometimes even applause.
+
+#+BEGIN_QUOTE
+“That’s lovely. A little rough around the edges, but you’re getting there.”
+#+END_QUOTE
+
+I used to think AI needed to be perfect. Now I think it just needs a good mentor.
+When I stopped being the *Hell’s Kitchen* version of myself and started being the *MasterChef Junior* version, everything got better — not just the output, but the process.
+
+AI didn’t just teach me to write better prompts.
+It taught me to communicate like a human being.
+
+#+BEGIN_QUOTE
+“If you want better results from your kitchen… start by being a better chef.”
+#+END_QUOTE
